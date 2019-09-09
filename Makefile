@@ -1,3 +1,2 @@
-say_hello:
-        echo "Hello World"
-
+hello_world:
+        echo "Hello, world!"
