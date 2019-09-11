@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="LinkageAnalysis:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/LinkageAnalysis_jar</output-path>
+    <root id="archive" name="LinkageAnalysis.jar">
+      <element id="module-output" name="LinkageAnalysis" />
+    </root>
+  </artifact>
+</component>

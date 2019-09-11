@@ -22,8 +22,6 @@ class NAStatCounter extends Serializable {
   override def toString: String = {
     "stats: " + stats.toString() + ", NaN: " +  missing
   }
-
-  // def apply(x: Double): NAStatCounter = new NAStatCounter().add(x)
 }
 
 object NAStatCounter extends Serializable {
