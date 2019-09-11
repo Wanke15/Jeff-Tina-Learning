@@ -60,10 +60,17 @@ object linkageAnalysis {
 
     // grouped.foreach(println)
 
+    // 创建直方图
     val matchCounts = parsed.map(x => x.matched).countByValue()
 
     matchCounts.foreach(println)
 
+    matchCounts.toSeq.sortBy(_._1).foreach(println)
+    matchCounts.toSeq.sortBy(_._2).foreach(println)
+
+    matchCounts.toSeq.sortBy(_._2).reverse.foreach(println)
+
+    // 连续变量的概要统计
     println(parsed.map(x => x.scores(0)).stats())
 
     println(parsed.map(x => x.scores(0)).filter(!isNaN(_)).stats())

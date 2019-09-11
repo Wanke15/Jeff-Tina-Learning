@@ -7,12 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46992eda-22dd-43a7-b33c-9d8baf1a5ae7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/LinkageAnalysis_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/NAStatCounter.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/NAStatCounter.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/linkageAnalysis.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/linkageAnalysis.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/linkageAnalysis2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/linkageAnalysis2.scala" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,6 +82,13 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.linkageAnalysis2">
+    <configuration name="demo" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="demo" />
+      <module name="LinkageAnalysis" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="helloWorld" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="helloWorld" />
       <module name="linkageAnalysis" />
@@ -110,10 +114,12 @@
       <item itemvalue="Application.helloWorld" />
       <item itemvalue="Application.linkageAnalysis" />
       <item itemvalue="Application.linkageAnalysis2" />
+      <item itemvalue="Application.demo" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.linkageAnalysis2" />
+        <item itemvalue="Application.demo" />
         <item itemvalue="Application.linkageAnalysis" />
         <item itemvalue="Application.helloWorld" />
       </list>
@@ -155,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568192235754</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="build artifact ready for spark-submit">
+      <created>1568209973997</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1568209973998</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -180,6 +193,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add README.md" />
     <MESSAGE value="add basic statistics" />
-    <option name="LAST_COMMIT_MESSAGE" value="add basic statistics" />
+    <MESSAGE value="build artifact ready for spark-submit" />
+    <option name="LAST_COMMIT_MESSAGE" value="build artifact ready for spark-submit" />
   </component>
 </project>
