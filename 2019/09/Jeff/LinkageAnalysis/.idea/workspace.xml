@@ -8,8 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="46992eda-22dd-43a7-b33c-9d8baf1a5ae7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/linkageAnalysis.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/linkageAnalysis.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/linkageAnalysis2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/linkageAnalysis2.scala" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -168,7 +166,21 @@
       <option name="project" value="LOCAL" />
       <updated>1568209973998</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="reusable code understanding first commit">
+      <created>1568213207896</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1568213207896</updated>
+    </task>
+    <task id="LOCAL-00006" summary="reusable code understanding first commit">
+      <created>1568213232098</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1568213232098</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -194,6 +206,7 @@
     <MESSAGE value="add README.md" />
     <MESSAGE value="add basic statistics" />
     <MESSAGE value="build artifact ready for spark-submit" />
-    <option name="LAST_COMMIT_MESSAGE" value="build artifact ready for spark-submit" />
+    <MESSAGE value="reusable code understanding first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="reusable code understanding first commit" />
   </component>
 </project>
