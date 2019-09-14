@@ -6,8 +6,11 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46992eda-22dd-43a7-b33c-9d8baf1a5ae7" name="Default Changelist" comment="">
+    <list default="true" id="46992eda-22dd-43a7-b33c-9d8baf1a5ae7" name="Default Changelist" comment="reusable code understanding first commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/NAStatCounter.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/NAStatCounter.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/demo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/demo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/linkageAnalysis2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/linkageAnalysis2.scala" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +82,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.linkageAnalysis2">
+  <component name="RunManager" selected="Application.demo">
     <configuration name="demo" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="demo" />
       <module name="LinkageAnalysis" />
@@ -116,12 +119,22 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.linkageAnalysis2" />
         <item itemvalue="Application.demo" />
+        <item itemvalue="Application.linkageAnalysis2" />
         <item itemvalue="Application.linkageAnalysis" />
         <item itemvalue="Application.helloWorld" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />

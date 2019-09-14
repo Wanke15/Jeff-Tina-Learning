@@ -1,3 +1,4 @@
+import org.apache.spark.rdd.RDD
 import org.apache.spark.util.StatCounter
 
 class NAStatCounter extends Serializable {
@@ -26,4 +27,17 @@ class NAStatCounter extends Serializable {
 
 object NAStatCounter extends Serializable {
   def apply(x: Double): NAStatCounter = new NAStatCounter().add(x)
+
+  def statsWithMissing(rdd: RDD[Array[Double]]): Array[NAStatCounter] = {
+    val nastats = rdd.mapPartitions((iter: Iterator[Array[Double]]) => {
+      val nas: Array[NAStatCounter] = iter.next().map(d => NAStatCounter(d))
+      iter.foreach(arr => {
+        nas.zip(arr).foreach { case (n, d) => n.add(d) }
+      })
+      Iterator(nas)
+    })
+    nastats.reduce((n1, n2) => {
+      n1.zip(n2).map { case (a, b) => a.merge(b)}
+    })
+  }
 }
