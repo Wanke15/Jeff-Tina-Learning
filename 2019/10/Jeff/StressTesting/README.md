@@ -3,7 +3,7 @@
 python server.py
 ```
 
-2. run locust
+2. Run locust
 ```bash
 locust --host=http://localhost:8899
 ```
