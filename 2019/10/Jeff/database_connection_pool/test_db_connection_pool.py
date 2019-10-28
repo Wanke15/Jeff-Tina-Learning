@@ -29,8 +29,8 @@ def simple_db_connection_test(test_num):
     all_tbl_name = []
     for idx, _ in enumerate(range(test_num)):
         ps_connection = psycopg2.connect(user="postgres",
-                                         password="zzc709394",
-                                         host="10.2.113.110",
+                                         password="password",
+                                         host="host.ip",
                                          port="5432",
                                          database="postgres")
         cursor = ps_connection.cursor()
