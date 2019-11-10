@@ -32,18 +32,19 @@ def naive_request(test_url, test_num):
     print("Naive time: ", end - start)
 
 
-test_num = 1000
-test_get_url = 'https://www.baidu.com/'
+if __name__ == '__main__':
+    test_num = 1000
+    test_get_url = 'https://www.baidu.com/'
 
 
-loop = asyncio.get_event_loop()
-loop.run_until_complete(async_request(test_url=test_get_url, test_num=test_num))
+    loop = asyncio.get_event_loop()
+    loop.run_until_complete(async_request(test_url=test_get_url, test_num=test_num))
 
-naive_request(test_url=test_get_url, test_num=test_num)
+    naive_request(test_url=test_get_url, test_num=test_num)
 
-# [out]:
-# 100%|██████████| 1000/1000 [00:06<00:00, 163.29it/s]
-# Async time:  6.386033535003662
+    # [out]:
+    # 100%|██████████| 1000/1000 [00:06<00:00, 163.29it/s]
+    # Async time:  6.386033535003662
 
-# 100%|██████████| 1000/1000 [00:33<00:00, 30.27it/s]
-# Naive time:  33.04072594642639
+    # 100%|██████████| 1000/1000 [00:33<00:00, 30.27it/s]
+    # Naive time:  33.04072594642639
