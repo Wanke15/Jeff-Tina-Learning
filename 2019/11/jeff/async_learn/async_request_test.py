@@ -36,7 +36,6 @@ if __name__ == '__main__':
     test_num = 1000
     test_get_url = 'https://www.baidu.com/'
 
-
     loop = asyncio.get_event_loop()
     loop.run_until_complete(async_request(test_url=test_get_url, test_num=test_num))
 
